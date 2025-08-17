@@ -7,9 +7,6 @@
       "dest": "app.py"
     }
   ],
-  "env": {
-    "ANTHROPIC_API_KEY": "@anthropic_api_key"
-  },
   "functions": {
     "app.py": {
       "maxDuration": 300
