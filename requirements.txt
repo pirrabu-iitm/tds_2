@@ -1,5 +1,4 @@
 flask
 anthropic
 pandas
-python-multipart
 scipy
