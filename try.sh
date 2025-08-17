@@ -1,1 +1,0 @@
-curl "http://localhost:8000/api/" -F "file=@question.txt"

@@ -1,3 +1,10 @@
-fastapi
-uvicorn
-python-multipart
+flask
+anthropic
+pandas
+numpy
+matplotlib
+seaborn
+requests
+beautifulsoup4
+pillow
+scipy
