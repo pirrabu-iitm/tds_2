@@ -192,9 +192,9 @@ def analyze_data():
         max_attempts = 1
         for attempt in range(max_attempts):
             returncode, stdout, stderr = run_script_with_uv(script_path, timeout=150)
-            with open('log.csv', mode='a', newline='') as outfile:
-                writer = csv.writer(outfile)
-                writer.writerow([question, ts, attempt, returncode, stdout, stderr])
+            # with open('log.csv', mode='a', newline='') as outfile:
+            #     writer = csv.writer(outfile)
+            #     writer.writerow([question, ts, attempt, returncode, stdout, stderr])
                 
             if returncode == 0 and stdout.strip():
                 # Success - try to parse output
