@@ -1,10 +1,5 @@
 flask
 anthropic
 pandas
-numpy
-matplotlib
-seaborn
-requests
-beautifulsoup4
-pillow
+python-multipart
 scipy
